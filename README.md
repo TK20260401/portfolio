@@ -89,6 +89,8 @@
 
 ## 📫 連絡先
 
-GitHub のプロフィール・Issue 経由でご連絡ください。
+- 📝 note: https://note.com/lush_cosmos4027
+- 🐙 GitHub: https://github.com/TK20260401
+
 
 <!-- 個人アカウントへコピーする際: 必要に応じてメール／SNS等の連絡先をここに追記してください -->
