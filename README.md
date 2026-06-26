@@ -52,11 +52,12 @@
 | プロジェクト | 概要 | 主な技術 | リンク |
 | :-- | :-- | :-- | :-- |
 | **otetsudai-bank** | 子供向けお手伝い×マネー教育アプリ（代表作） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) ・ [Repo](https://github.com/TK20260401/otetsudai-bank) |
-| **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Repo](https://github.com/TK20260401/zensho-algo) |
-| **team-signage** | チーム状況をリアルタイム共有するデジタルサイネージ（在席管理・営業カレンダー・リソース可視化） | TypeScript / Next.js | [Repo](https://github.com/TK20260401/team-signage) |
-| **20260401-Project-Blueprint (ISLOS構想)** | 複数の学習アプリを束ねる学習プラットフォーム「IT-Skills Learning OS」の設計・構想 | TypeScript / 設計ドキュメント | [Demo](https://20260401-one.vercel.app) ・ [Repo](https://github.com/TK20260401/20260401-Project-Blueprint) |
+| **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Demo](https://zensho-algo.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo) |
+| **ipas-master** | ITパスポート対策アプリ。500問ドリル・分野別フィルタ・レーダーチャート分析・進数変換 | TypeScript / Next.js | [Demo](https://ipas-master.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo/tree/main/ipas-master) |
+| **logic-riichi** | 麻雀の待ち牌当てでアルゴリズム的思考を鍛える学習クイズ | TypeScript / Next.js | [Demo](https://logic-riichi.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo/tree/main/logic-riichi) |
+| **20260401-Project-Blueprint (ISLOS構想)** | 複数の学習アプリを束ねる学習プラットフォーム「IT-Skills Learning OS」の設計・構想 | TypeScript / 設計ドキュメント | [構想・設計ドキュメント](https://github.com/TK20260401/20260401-Project-Blueprint) |
 | **report-hub** | 日報／週報／月報を一元管理し、業務効率と知見を蓄積するハブ | TypeScript / Next.js | [Demo](https://report-hub-one.vercel.app) ・ [Repo](https://github.com/TK20260401/report-hub) |
-| **asset-management-ledger** | QRコード対応の資産管理台帳。更新アラート・操作ログ・権限管理 | TypeScript / Next.js | [Repo](https://github.com/TK20260401/asset-management-ledger) |
+| **asset-management-ledger** | QRコード対応の資産管理台帳。更新アラート・操作ログ・権限管理 | TypeScript / Next.js | [Demo](https://asset-management-ledger.vercel.app) ・ [Repo](https://github.com/TK20260401/asset-management-ledger) |
 | **roi-simulator** | 売上計画とROIを即時試算・複数プラン比較 | HTML / JS | [Demo](https://roi-simulator-delta.vercel.app) ・ [Repo](https://github.com/TK20260401/roi-simulator) |
 | **ai-strategy-agent** | AIを活用した戦略立案支援エージェント | TypeScript | [Repo](https://github.com/TK20260401/ai-strategy-agent) |
 | **universal-games** | 誰でも楽しめるアクセシブルなゲーム集（あそびひろば） | TypeScript / Expo | [Repo](https://github.com/TK20260401/universal-games) |
