@@ -99,7 +99,7 @@
 ## 📫 連絡先
 
 - 📝 note: https://note.com/lush_cosmos4027
-- 📨 お問い合わせフォーム: https://forms.gle/cs1gk5cjho3A41YE7
+- 📨 お問い合わせフォーム: https://forms.gle/6EzqcY7JvhUkSMXK9
 - 🐙 GitHub: https://github.com/TK20260401
 
 <!-- LinkedIn: 登録後に追加予定 -->
