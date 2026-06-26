@@ -42,7 +42,6 @@
 | :-- | :-- | :-- | :-- |
 | おてつだいバンク | 子供向けお手伝い×マネー教育アプリ（代表作・96コミット規模） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) |
 | zensho-algo | 全商情報処理検定 アルゴリズムトレーナー | Next.js / TypeScript | [Repo](https://github.com/TK20260401/zensho-algo) |
-| team-signage | チーム状況共有デジタルサイネージ | Next.js / TypeScript | [Repo](https://github.com/TK20260401/team-signage) |
 | report-hub | 日報・週報・月報の統合レポートシステム | Next.js / TypeScript | [Demo](https://report-hub-one.vercel.app) |
 | asset-management-ledger | QR対応 備品管理台帳 | Next.js / TypeScript | [Repo](https://github.com/TK20260401/asset-management-ledger) |
 
