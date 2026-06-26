@@ -64,7 +64,7 @@
 | **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Demo](https://zensho-algo-app.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo-app) |
 | **ipas-master** | ITパスポート対策アプリ。500問ドリル・分野別フィルタ・レーダーチャート分析・進数変換 | TypeScript / Next.js | [Demo](https://ipas-master.vercel.app) ・ [Repo](https://github.com/TK20260401/ipas-master) |
 | **logic-riichi** | 麻雀の待ち牌当てでアルゴリズム的思考を鍛える学習クイズ | TypeScript / Next.js | [Demo](https://logic-riichi.vercel.app) ・ [Repo](https://github.com/TK20260401/logic-riichi) |
-| **20260401-Project-Blueprint (ISLOS構想)** | 複数の学習アプリを束ねる学習プラットフォーム「IT-Skills Learning OS」の設計・構想 | TypeScript / 設計ドキュメント | [構想・設計ドキュメント](https://github.com/TK20260401/20260401-Project-Blueprint) |
+| **ISLOS（IT-Skills Learning OS）** | 情報処理学習アプリ（FE計算/ITパスポート/アルゴリズム）を束ねるポータル＋構想 | ポータル / 設計 | [ポータル](https://tk20260401.github.io/islos/) ・ [設計](https://github.com/TK20260401/20260401-Project-Blueprint) |
 | **report-hub** | 日報／週報／月報を一元管理し、業務効率と知見を蓄積するハブ | TypeScript / Next.js | [Demo](https://report-hub-one.vercel.app) ・ [Repo](https://github.com/TK20260401/report-hub) |
 | **asset-management-ledger** | QRコード対応の資産管理台帳。更新アラート・操作ログ・権限管理 | TypeScript / Next.js | [Demo](https://asset-management-ledger.vercel.app) ・ [Repo](https://github.com/TK20260401/asset-management-ledger) |
 | **roi-simulator** | 売上計画とROIを即時試算・複数プラン比較 | HTML / JS | [Demo](https://roi-simulator-delta.vercel.app) ・ [Repo](https://github.com/TK20260401/roi-simulator) |
