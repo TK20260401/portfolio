@@ -23,9 +23,12 @@
 
 - **課題発見力** — 教育現場で培った観察眼に基づく「本当に使われるもの」の見極め
 - **一気通貫の開発力** — 要件定義〜フロントエンド〜バックエンド（Supabase）〜デプロイ（Vercel）まで一人で完結
+- **バックオフィスDX／業務自動化** — Google Apps Script（GAS）・Excel VBA で定型業務を自動化し、**年間約200時間（約40%）の工数削減** を実現。現場の手作業を「仕組み」に置き換えるDX推進力
 - **ユーザー目線の UX** — アクセシビリティ・ユニバーサルデザインの設計・実装経験
 - **品質・セキュリティ意識** — Row Level Security、認証情報のハッシュ化、プライバシー設計（COPPA／GDPR）
-- **継続的な学習姿勢（すべて学習中／未取得）** — IT系（Python 3エンジニア認定基礎、AWSクラウド基礎、ITパスポート、基本情報技術者[FE]、応用情報技術者[AP]）と会計系（日商簿記、ビジネス会計検定）の両領域を並行して学習中
+- **自律自走（エージェンシー）／自己デザイン力** — 指示を待たず、自ら課題と目標を設定し、独学で習得した技術を実プロダクト水準まで仕上げる主体性。教育現場では生徒の「エージェンシー（自ら学ぶ力）」を育てる側であり、自身もそれを体現
+- **データ分析志向** — SQL・Python（形態素解析・機械学習）・Looker Studio によるデータ可視化の経験。定性データを定量化・可視化し、エビデンスベースの意思決定につなげることを重視
+- **継続的な学習姿勢（すべて学習中／未取得）** — データ系（統計検定 3級／2級・G検定）、IT系（Python 3エンジニア認定基礎、AWSクラウド基礎、ITパスポート、基本情報技術者[FE]、応用情報技術者[AP]）、会計系（日商簿記、ビジネス会計検定）を並行して学習中
 
 ## 技術スキル
 
@@ -34,30 +37,35 @@
 | 言語 | TypeScript / JavaScript / Python / Swift / SQL |
 | フロントエンド | React 19 / Next.js (App Router) / Tailwind CSS / shadcn/ui |
 | バックエンド | Supabase (PostgreSQL / Auth / RLS / Edge Functions) |
-| AI / データ | Anthropic Claude API / Python (MeCab) 形態素解析・機械学習 |
+| AI / データ | Anthropic Claude API / Python (MeCab) 形態素解析・機械学習 / SQL によるデータ集計 / Looker Studio によるBI・データ可視化 |
 | モバイル | React Native / Expo |
 | 業務自動化 / RPA | Excel VBA / Google Apps Script (GAS) |
 | インフラ | Vercel (CI/CD) / GitHub / Active Directory / Windows Server |
 
 ## 継続的な学習履歴
 
-プロダクト開発（[@TK20260401](https://github.com/TK20260401)）と並行し、基礎学習・写経・検定対策を個人アカウント（[@ChRo05](https://github.com/ChRo05)）で継続。
+プロダクト開発（[@TK20260401](https://github.com/TK20260401)）と並行し、基礎学習・写経・検定対策を個人アカウント（[@ChRo05](https://github.com/ChRo05)）で継続。**「学び続けること」自体を運用** し、現在も複数資格の取得に向けて並行学習を進めています。
 
-| 時期 | 内容 |
-| :-- | :-- |
-| 2026 | Python 3 エンジニア認定基礎試験 対策教材を自作（要点・サンプルコード・確認問題を Jupyter 化） |
-| 2024 | Python によるおみくじアプリ制作（Jupyter） |
-| 2023 | Python 基礎の写経・練習、Tello ドローンの Python 制御 |
-| 2021 | Express サンプルでの Node.js 学習 |
-| 2019 | Tello ドローンの Node.js 制御（学習開始期） |
+| 時期 | 内容 | 成果物 |
+| :-- | :-- | :-- |
+| **2025〜2026（学習中）** | **データ分析へ軸足を拡張**。Looker Studio でBIダッシュボードを制作し、データ接続〜可視化〜考察までの一連を実践（学習用サンプルデータ）。**統計検定（3級／2級）・G検定の取得を目指して学習中**。あわせて資格取得に向けIT系（Python 3 エンジニア認定基礎試験／基本情報技術者[FE]／ITパスポート → 応用情報[AP]・AWSクラウド基礎）と会計系（日商簿記／ビジネス会計検定）を並行学習 | [利用状況ダッシュボード](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b) ・ [ipas-master](https://ipas-master.vercel.app) ・ [@ChRo05](https://github.com/ChRo05) |
+| 2026 | Python 3 エンジニア認定基礎試験 対策教材を自作（要点・サンプルコード・確認問題を Jupyter 化）。AIコーディング（Claude API／エージェント開発）を実プロダクトに適用しながらキャッチアップ | [python-certified-basic-jp](https://github.com/ChRo05/python-certified-basic-jp) |
+| 2024 | Python によるおみくじアプリ制作（Jupyter）。標準ライブラリ・制御構文を題材に基礎を反復演習 | [omikuji_experience](https://github.com/ChRo05/omikuji_experience) |
+| 2023 | Python 基礎の写経・練習、Tello ドローンの Python 制御。**北海道情報大学 通信教育部 修了**（働きながら情報科目を体系的に履修） | [py](https://github.com/ChRo05/py) ・ [Tello-Python](https://github.com/ChRo05/Tello-Python) |
+| 2021 | **北海道情報大学 通信教育部 入学**（情報科の専門性を学位レベルで補強）。Express サンプルでの Node.js 学習、**VBAエキスパート Excel VBA Standard 取得** | [samurai_express_sample](https://github.com/ChRo05/samurai_express_sample) |
+| 2020 | **MOS Excel 2016 エキスパート 取得**。業務自動化（VBA）を起点に「コードで仕組みを作る」学習へ移行 | — |
+| 2019 | Tello ドローンの Node.js 制御（プログラミング学習の起点） | [node-tello-edu](https://github.com/ChRo05/node-tello-edu) |
 
-> **学びの流れ**：ドローン × プログラミング → Web/Node.js → Python 基礎 → 認定試験対策の教材化。「触る → 試す → 教材化する」のサイクルで定着させています。
+> **学びの流れ**：業務効率化（VBA／MOS）→ ドローン × プログラミング → Web/Node.js → Python 基礎 → 認定試験対策の教材化 → AI 活用開発。「触る → 試す → 教材化する」のサイクルで定着させ、**毎年テーマを更新しながらコンスタントに学習を継続** しています。
+
+> **キャッチアップ力の根拠**：未知の技術でも「最小実装で触る → ドキュメント／公式教材で体系化 → 自分用に教材化して定着」という再現性のある自己学習プロセスを持っています。直近では AI コーディングや Supabase／Next.js といった新しめのスタックを独学で実プロダクト水準まで習得しました。
 
 ## 主な制作物（自主開発）
 
 | プロダクト | 概要 | 技術 | リンク |
 | :-- | :-- | :-- | :-- |
-| おてつだいバンク | 子供向けお手伝い×マネー教育アプリ（代表作・96コミット規模） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) |
+| おてつだいバンク | 子供向けお手伝い×マネー教育アプリ（代表作・96コミット規模） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) ・ [TestFlight](https://testflight.apple.com/join/CYw3kWBd) |
+| 利用状況ダッシュボード | おてつだいバンクの利用状況を可視化したBIダッシュボード（**学習用サンプルデータ**による分析デモ） | Looker Studio / データ可視化 | [Demo](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b) |
 | zensho-algo | 全商情報処理検定 アルゴリズムトレーナー | Next.js / TypeScript | [Repo](https://github.com/TK20260401/zensho-algo) |
 | report-hub | 日報・週報・月報の統合レポートシステム | Next.js / TypeScript | [Demo](https://report-hub-one.vercel.app) |
 | asset-management-ledger | QR対応 備品管理台帳 | Next.js / TypeScript | [Repo](https://github.com/TK20260401/asset-management-ledger) |
@@ -161,14 +169,17 @@
 - マイクロソフト認定資格（MOS）Excel 2016 エキスパート（2020年5月取得）
 
 ### 学習中（未取得）
-IT・会計の両領域で資格取得に向けて並行学習中。
+データ・IT・会計の各領域で資格取得に向けて並行学習中。
 
+- **データ系**: 統計検定（3級／2級）／G検定
 - **IT系**: Python 3エンジニア認定基礎試験／AWSクラウド基礎／ITパスポート／基本情報技術者（FE）／応用情報技術者（AP）
 - **会計系**: 日商簿記／ビジネス会計検定
 
 ## 自己PR
 
 教育現場で培った「相手が何につまずくかを観察し、設計で解決する」習慣を、そのままプロダクト開発に活かしています。技術はユーザーの課題を解くための手段と捉え、企画から運用まで責任を持って完成させること、そして使う人が迷わない体験を作ることを大切にしています。
+
+私の核となる強みは **自律自走（エージェンシー）** です。教育の現場では、生徒が「自ら目標を立て、振り返り、行動して状況を変える力（エージェンシー）」を育むことを支援してきました。同時にその力を自分自身にも向け、誰かに指示される前に課題を見つけ、必要な技術を独学で習得し、Next.js／Supabase／AIコーディングといった新しいスタックで実際に動くプロダクトを世に出しています。**「自分で学びをデザインし、最後までやり切る」** という姿勢が、変化の速い環境でのキャッチアップ力の源泉です。資格学習も同じ姿勢の表れであり、IT・会計の両領域でコンスタントに学び続けています。
 
 ---
 
