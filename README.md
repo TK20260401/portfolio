@@ -43,7 +43,7 @@
 
 子供向けの「お手伝い×マネー教育」アプリ。お手伝いをRPGのクエストに見立て、稼いだお金を **「つかう／ためる／ふやす」** の3つに分けることで、楽しみながら **お金との付き合い方を身につける** 学習体験を提供します。
 
-[🔗 ライブデモ](https://otetsudai-bank-beta.vercel.app) ・ [📁 リポジトリ](https://github.com/TK20260401/otetsudai-bank)
+[🔗 ライブデモ](https://otetsudai-bank-beta.vercel.app) ・ [🍎 TestFlight（iOS）](https://testflight.apple.com/join/CYw3kWBd) ・ [📁 リポジトリ](https://github.com/TK20260401/otetsudai-bank)
 
 **主な機能**
 - 3役認証（管理者／保護者／子供＝PIN）と保護者ダッシュボードでのタスク管理・承認フロー
@@ -74,7 +74,8 @@
 
 | プロジェクト | 概要 | 主な技術 | リンク |
 | :-- | :-- | :-- | :-- |
-| **otetsudai-bank** | 子供向けお手伝い×マネー教育アプリ（代表作） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) ・ [Repo](https://github.com/TK20260401/otetsudai-bank) |
+| **otetsudai-bank** | 子供向けお手伝い×マネー教育アプリ（代表作） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) ・ [TestFlight](https://testflight.apple.com/join/CYw3kWBd) ・ [Repo](https://github.com/TK20260401/otetsudai-bank) |
+| **利用状況ダッシュボード** | おてつだいバンクの利用状況を可視化したBIダッシュボード（学習用サンプルデータによる分析デモ） | Looker Studio / データ可視化 | [Demo](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b) |
 | **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Demo](https://zensho-algo-app.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo-app) |
 | **ipas-master** | ITパスポート対策アプリ。500問ドリル・分野別フィルタ・レーダーチャート分析・進数変換 | TypeScript / Next.js | [Demo](https://ipas-master.vercel.app) ・ [Repo](https://github.com/TK20260401/ipas-master) |
 | **logic-riichi** | 麻雀の待ち牌当てでアルゴリズム的思考を鍛える学習クイズ | TypeScript / Next.js | [Demo](https://logic-riichi.vercel.app) ・ [Repo](https://github.com/TK20260401/logic-riichi) |
