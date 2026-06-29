@@ -8,3 +8,6 @@ looker-studio-demo/
 
 # macOS が自動生成するシステムファイル
 .DS_Store
+
+# エディタのローカル履歴
+.history/
