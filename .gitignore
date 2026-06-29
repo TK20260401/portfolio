@@ -5,3 +5,6 @@ TODO.local.md
 
 # 学習用データ素材（公開しない）
 looker-studio-demo/
+
+# macOS が自動生成するシステムファイル
+.DS_Store
