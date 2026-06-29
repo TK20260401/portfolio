@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Portfolio
+permalink: /
 ---
 
 # ポートフォリオ — KIKUCHI, Toru（菊池 亨）
