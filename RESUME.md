@@ -13,10 +13,10 @@ title: 職務経歴書
 | ポートフォリオ | [github.com/TK20260401/portfolio](https://github.com/TK20260401/portfolio) |
 | GitHub（プロダクト） | [@TK20260401](https://github.com/TK20260401) |
 | GitHub（学習履歴） | [@ChRo05](https://github.com/ChRo05) |
+| LinkedIn | [www.linkedin.com/in/kikuchi-toru-buildships](https://www.linkedin.com/in/kikuchi-toru-buildships/) |
 
 <!-- ▼ 個人アカウントへコピーする際に追記してください -->
 <!-- | 生年 / 居住地 | （任意） | -->
-<!-- | 連絡先 | （メール / SNS 等） | -->
 
 ---
 

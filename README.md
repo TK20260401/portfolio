@@ -240,6 +240,6 @@ permalink: /
 | 📨 お問い合わせフォーム | [forms.gle/LL4WyZ3bWAvPhe8CA](https://forms.gle/LL4WyZ3bWAvPhe8CA) |
 | 🐙 GitHub（プロダクト） | [@TK20260401](https://github.com/TK20260401) |
 | 🎒 GitHub（学習履歴） | [@ChRo05](https://github.com/ChRo05) |
+| 💼 LinkedIn | [www.linkedin.com/in/kikuchi-toru-buildships](https://www.linkedin.com/in/kikuchi-toru-buildships/) |
 
-<!-- LinkedIn: 登録後に追加予定 -->
 <!-- 個人アカウントへコピーする際: 必要に応じてメール／SNS等の連絡先をここに追記してください -->
