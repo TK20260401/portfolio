@@ -11,18 +11,24 @@ permalink: /
 
 * Python（MeCab）による形態素解析でアンケート等の定性データを定量化・可視化し、エビデンスに基づく意思決定を支援。
 * SQLでのデータ集計やLooker StudioでのBIダッシュボード制作まで、データの収集→可視化→考察を実践しています。
-* 250名規模の組織のITインフラ運用、Excel VBA／GASによるRPA内製化（年間約200時間の削減）、自社開発レベルのWebプロダクト制作まで、**分析を支える実装・DXの土台**も備えています。
+* 250名規模の組織のICT環境運用（ネットワーク機器・アカウント管理）、Excel VBA／GASによるRPA内製化（年間約200時間の削減）、自社開発レベルのWebプロダクト制作まで、**分析を支える実装・DXの土台**も備えています。
 
 | | |
 | :-- | :-- |
 | 🎯 **志望** | データアナリスト・BI／データ分析（事業会社）。サブでデータ活用に近いエンジニア／DX推進 |
-| 🧭 **得意領域** | データの定量化・可視化／SQL・Python／要件定義・グランドデザイン／業務自動化（GAS・VBA） |
+| 🧭 **得意領域** | データの定量化・可視化／SQL・Python／要件定義・業務設計／業務自動化（GAS・VBA） |
 | ♿ **大切にしていること** | 数字の背景にある「人」を見る視点・データ整合性・属人化排除のドキュメント文化 |
 | 📄 **詳細** | [職務経歴書（RESUME.md）](./RESUME.html) |
 
+### 💡 データ領域で提供できること
+
+- **データ分析・可視化** — SQL集計 → Looker Studio でのBI構築 → Python（形態素解析・機械学習）で定性データを定量化し、**意思決定に使える示唆** まで一貫して対応
+- **業務自動化・DX** — GAS／Excel VBA で定型業務を自動化（実績：**年間約200時間削減**）。データ収集・集計を仕組み化
+- **内製開発（分析を支える土台）** — 要件定義〜Next.js／Supabase（SQL）〜デプロイまで一人で完結。分析基盤やツールを自前で構築
+
 ### 業務実績ハイライト
 
-- **250名規模の組織**でITインフラのグランドデザイン〜運用までを一気通貫で完遂
+- **250名規模の組織**で情報システム（ICT環境）の企画〜運用までを一気通貫で担当
 - Excel VBA／GASによるRPA内製で **年間約200時間（約40%）の業務効率改善** を実現
 - **端末100台規模の更新プロジェクト** を要件定義〜ベンダー選定〜定着支援まで主導（教育委員会との折衝・校長決裁による合意形成を含む）
 - Python（MeCab）による形態素解析で、アンケート等の定性データを定量化・可視化
@@ -98,21 +104,38 @@ permalink: /
 
 ## 📦 プロジェクト一覧
 
+### 📊 データ分析・AI
+
+| プロジェクト | 概要 | 主な技術 | リンク |
+| :-- | :-- | :-- | :-- |
+| **利用状況ダッシュボード** | おてつだいバンクの利用状況を可視化したBIダッシュボード（学習用サンプルデータによる分析デモ） | Looker Studio / データ可視化 | [Demo](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b) |
+| **otetsudai-nlp** | アプリレビューを日本語形態素解析＋機械学習で肯定/否定に自動分類（学習用サンプル・**入力文をその場判定する対話デモ付き**） | Python / fugashi(MeCab) / scikit-learn | [解説 ▼](#-機械学習で日本語レビューを肯定否定に自動分類otetsudai-nlp) |
+| **ai-strategy-agent** | AIを活用した戦略立案支援エージェント | TypeScript | [Repo](https://github.com/TK20260401/ai-strategy-agent) |
+
+### 🚀 プロダクト・業務系Webアプリ
+
 | プロジェクト | 概要 | 主な技術 | リンク |
 | :-- | :-- | :-- | :-- |
 | **otetsudai-bank** | 子供向けお手伝い×マネー教育アプリ（代表作） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) ・ [TestFlight](https://testflight.apple.com/join/CYw3kWBd) ・ [Repo](https://github.com/TK20260401/otetsudai-bank) |
-| **利用状況ダッシュボード** | おてつだいバンクの利用状況を可視化したBIダッシュボード（学習用サンプルデータによる分析デモ） | Looker Studio / データ可視化 | [Demo](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b) |
-| **otetsudai-nlp** | アプリレビューを日本語形態素解析＋機械学習で肯定/否定に自動分類（学習用サンプル・**入力文をその場判定する対話デモ付き**） | Python / fugashi(MeCab) / scikit-learn | [解説 ▼](#-機械学習で日本語レビューを肯定否定に自動分類otetsudai-nlp) |
+| **report-hub** | 日報／週報／月報を一元管理し、業務効率と知見を蓄積するハブ | TypeScript / Next.js | [Demo](https://report-hub-one.vercel.app) ・ [Repo](https://github.com/TK20260401/report-hub) |
+| **asset-management-ledger** | QRコード対応の資産管理台帳。更新アラート・操作ログ・権限管理 | TypeScript / Next.js | [Demo](https://asset-management-ledger.vercel.app) ・ [Repo](https://github.com/TK20260401/asset-management-ledger) |
+| **roi-simulator** | 売上計画とROIを即時試算・複数プラン比較 | HTML / JS | [Demo](https://roi-simulator-delta.vercel.app) ・ [Repo](https://github.com/TK20260401/roi-simulator) |
+| **otetsudai-quest-mobile** | おこづかいクエストのモバイル版 | React Native / Expo | [Repo](https://github.com/TK20260401/otetsudai-quest-mobile) |
+
+### 🎓 情報処理・学習教育系
+
+| プロジェクト | 概要 | 主な技術 | リンク |
+| :-- | :-- | :-- | :-- |
 | **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Demo](https://zensho-algo-app.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo-app) |
 | **ipas-master** | ITパスポート対策アプリ。500問ドリル・分野別フィルタ・レーダーチャート分析・進数変換 | TypeScript / Next.js | [Demo](https://ipas-master.vercel.app) ・ [Repo](https://github.com/TK20260401/ipas-master) |
 | **logic-riichi** | 麻雀の待ち牌当てでアルゴリズム的思考を鍛える学習クイズ | TypeScript / Next.js | [Demo](https://logic-riichi.vercel.app) ・ [Repo](https://github.com/TK20260401/logic-riichi) |
 | **ISLOS（IT-Skills Learning OS）** | 情報処理学習アプリ（FE計算/ITパスポート/アルゴリズム）を束ねるポータル＋構想 | ポータル / 設計 | [ポータル](https://tk20260401.github.io/islos/) ・ [設計](https://github.com/TK20260401/20260401-Project-Blueprint) |
-| **report-hub** | 日報／週報／月報を一元管理し、業務効率と知見を蓄積するハブ | TypeScript / Next.js | [Demo](https://report-hub-one.vercel.app) ・ [Repo](https://github.com/TK20260401/report-hub) |
-| **asset-management-ledger** | QRコード対応の資産管理台帳。更新アラート・操作ログ・権限管理 | TypeScript / Next.js | [Demo](https://asset-management-ledger.vercel.app) ・ [Repo](https://github.com/TK20260401/asset-management-ledger) |
-| **roi-simulator** | 売上計画とROIを即時試算・複数プラン比較 | HTML / JS | [Demo](https://roi-simulator-delta.vercel.app) ・ [Repo](https://github.com/TK20260401/roi-simulator) |
-| **ai-strategy-agent** | AIを活用した戦略立案支援エージェント | TypeScript | [Repo](https://github.com/TK20260401/ai-strategy-agent) |
+
+### 🎮 その他
+
+| プロジェクト | 概要 | 主な技術 | リンク |
+| :-- | :-- | :-- | :-- |
 | **universal-games** | 誰でも楽しめるアクセシブルなゲーム集（あそびひろば） | TypeScript / Expo | [Repo](https://github.com/TK20260401/universal-games) |
-| **otetsudai-quest-mobile** | おこづかいクエストのモバイル版 | React Native / Expo | [Repo](https://github.com/TK20260401/otetsudai-quest-mobile) |
 | **clock** | NHK風時計アプリ（アナログ時計＋天気＋タイマー） | HTML / CSS / JS | [Repo](https://github.com/TK20260401/clock) |
 | **tetris-games** | ブラウザで遊べるテトリス | HTML / JS | [Demo](https://tetris-games-six.vercel.app) ・ [Repo](https://github.com/TK20260401/tetris-games) |
 
