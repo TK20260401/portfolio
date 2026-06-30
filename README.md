@@ -102,6 +102,7 @@ permalink: /
 | :-- | :-- | :-- | :-- |
 | **otetsudai-bank** | 子供向けお手伝い×マネー教育アプリ（代表作） | Next.js / Supabase / Claude API | [Demo](https://otetsudai-bank-beta.vercel.app) ・ [TestFlight](https://testflight.apple.com/join/CYw3kWBd) ・ [Repo](https://github.com/TK20260401/otetsudai-bank) |
 | **利用状況ダッシュボード** | おてつだいバンクの利用状況を可視化したBIダッシュボード（学習用サンプルデータによる分析デモ） | Looker Studio / データ可視化 | [Demo](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b) |
+| **otetsudai-nlp** | アプリレビューを日本語形態素解析＋機械学習で肯定/否定に自動分類（学習用サンプル・**入力文をその場判定する対話デモ付き**） | Python / fugashi(MeCab) / scikit-learn | [解説 ▼](#-機械学習で日本語レビューを肯定否定に自動分類otetsudai-nlp) |
 | **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Demo](https://zensho-algo-app.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo-app) |
 | **ipas-master** | ITパスポート対策アプリ。500問ドリル・分野別フィルタ・レーダーチャート分析・進数変換 | TypeScript / Next.js | [Demo](https://ipas-master.vercel.app) ・ [Repo](https://github.com/TK20260401/ipas-master) |
 | **logic-riichi** | 麻雀の待ち牌当てでアルゴリズム的思考を鍛える学習クイズ | TypeScript / Next.js | [Demo](https://logic-riichi.vercel.app) ・ [Repo](https://github.com/TK20260401/logic-riichi) |
@@ -119,6 +120,25 @@ permalink: /
 - **簿記・ビジネス会計トレーナー** 
   - — 仕訳→試算表→精算表→決算書の自動採点、決算整理、財務分析12指標、CVP・損益分岐点、減価償却、株式指標、ドリル、進捗ダッシュボードを備えた学習アプリ。
   - 現在 **デスクトップアプリ版・Webアプリ版** を計画中（教育現場での自作教材が原型）。
+
+---
+
+## 🧠 機械学習で日本語レビューを肯定/否定に自動分類（`otetsudai-nlp`）
+
+> **学習用の架空サンプルデータによるデモです**（実ユーザーのレビューではありません。誇張を避けるため明記）。
+
+おてつだいバンク（架空）のアプリレビュー400件を題材に、**日本語テキストを形態素解析 → 可視化 → 機械学習で肯定/否定を自動分類** する一連の流れを Python で実装しました。SQL×BI の分析プロジェクトの **Python 版** にあたります。
+
+![レビュー頻出語のワードクラウド（日本語）](assets/otetsudai-nlp-wordcloud.png)
+
+| ステップ | やったこと | 使用技術 |
+| :-- | :-- | :-- |
+| 形態素解析 | レビューから名詞を抽出して頻出語を可視化。**肯定＝家族・手伝い・満足／否定＝アップデート・通知・課金** と語彙がきれいに対照的 | fugashi（MeCab）/ wordcloud |
+| 機械学習 | 内容語を基本形に正規化 → TF-IDF でベクトル化 → ロジスティック回帰で肯定/否定を二値分類。**特徴語から判定根拠も確認** | scikit-learn |
+| 体験デモ | 入力した文章をその場で肯定/否定判定（**確信度つき**）するスクリプトを同梱 | Python |
+
+- **満足は「体験」、不満は「技術・課金」に集中** — 否定語の上位がアップデート/通知/課金/データ消失。プロダクト価値そのものより、安定性・通知設計・課金バランスが解約リスクの主因という仮説が立つ。
+- 分類精度は高く出ますが、これは**サンプルデータが肯定/否定で語彙が明確に分かれている易しい条件**のため。実レビュー（皮肉・条件付き評価・誤字）では精度が下がる点も正直に記載しています。
 
 ---
 
