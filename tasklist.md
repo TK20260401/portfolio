@@ -25,7 +25,16 @@
       **A（おすすめ）**: `gh auth login` でChRo05を追加ログイン → AIがリモートで全部反映
       **B**: Gistの RESUME-ChRo05.md をコピー → GitHub Webの編集画面で RESUME.md に貼り付け
 - [ ] README を転職用の最新版に更新（現在は6/30時点の古いコピー。経歴が教員のままで現職の記載なし）
-- [ ] 検索エンジンに載せない設定に変更（_includes/head-custom.html を noindex に）
+- [ ] 検索エンジンに載せない設定に変更（ChRo05でログインしたWeb画面での手作業）
+      1. https://github.com/ChRo05/portfolio/blob/main/_includes/head-custom.html を開く
+      2. 鉛筆マーク（Edit）→ 中身を次の2行に丸ごと置き換え → Commit changes
+      ```
+      <!-- 検索エンジンに載せない（応募先にはURLを直接送る運用） -->
+      <meta name="robots" content="noindex, nofollow" />
+      ```
+      ※効くのはPages（github.io側）のみ。github.comのリポジトリページ自体は完全には検索から隠せない
+- [ ] 【判断】転職用を public+noindex のままにするか、**private化＋応募先へPDF送付** に切り替えるか
+      （実名フルの職務経歴書が載るため private＋PDF が最も安全。PDF化はAIに依頼可能）
 - [ ] 生年・居住地を記入するか判断（RESUME内のコメント欄・任意）
 - [ ] 反映完了後、Gistの2ファイル（RESUME.md / RESUME-ChRo05.md）を削除
 
