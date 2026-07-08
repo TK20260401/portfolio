@@ -145,6 +145,17 @@ permalink: /
 
 ---
 
+## 📊 BIダッシュボード（実物エビデンス）
+
+> **学習用の架空サンプルデータによるデモです**（実データではありません。誇張を避けるため明記）。
+
+SQL で集計したデータを **Looker Studio と Power BI** の2ツールで可視化し、収集 → SQL集計 → 可視化 → 考察までを実物のダッシュボードでお見せします。複数の BI ツールを扱えることのエビデンスです。
+
+![Power BI で作成したダッシュボード（学習用サンプルデータ）](assets/powerbi-dashboard.png)
+
+- **Looker Studio 版（ライブ）**: [利用状況ダッシュボード](https://lookerstudio.google.com/reporting/467c397b-49be-4a1b-a759-a46fcccc383b)
+- **Power BI 版**: 上図 ―― ※可視化した指標・対象データの説明をここに記入
+
 ## 🧠 機械学習で日本語レビューを肯定/否定に自動分類（`otetsudai-nlp`）
 
 > **学習用の架空サンプルデータによるデモです**（実ユーザーのレビューではありません。誇張を避けるため明記）。
@@ -209,18 +220,18 @@ permalink: /
 
 ---
 
-## 🎒 学習履歴（個人アカウント：[@ChRo05](https://github.com/ChRo05)）
+## 🎒 学習履歴（個人アカウント）
 
 プロダクト開発（[@TK20260401](https://github.com/TK20260401)）とは別に、**基礎学習・写経・検定対策** を個人アカウントで継続的に積み上げています。「教える側」として教材を作るだけでなく、**自分自身が学習者として手を動かし続ける** ことを大切にしています。
 
 | 時期 | リポジトリ | 内容 | 技術 |
 | :-- | :-- | :-- | :-- |
-| 2026 | [python-certified-basic-jp](https://github.com/ChRo05/python-certified-basic-jp) | Python 3 エンジニア認定基礎試験の学習教材。要点まとめ・サンプルコード・選択式確認問題を Jupyter Notebook 化 | Python / Jupyter |
-| 2024 | [omikuji_experience](https://github.com/ChRo05/omikuji_experience) | おみくじアプリ（Python 学習） | Jupyter |
-| 2023 | [py](https://github.com/ChRo05/py) | Python 基礎の写経・練習ノート | Jupyter |
-| 2023 | [Tello-Python](https://github.com/ChRo05/Tello-Python) | Ryze Tello ドローンを Python で制御（fork・学習用） | Python |
-| 2021 | [samurai_express_sample](https://github.com/ChRo05/samurai_express_sample) | Express サンプル（fork・学習用） | Node.js |
-| 2019 | [node-tello-edu](https://github.com/ChRo05/node-tello-edu) | Tello ドローンを Node.js で制御（fork・学習用） | JavaScript |
+| 2026 | python-certified-basic-jp | Python 3 エンジニア認定基礎試験の学習教材。要点まとめ・サンプルコード・選択式確認問題を Jupyter Notebook 化 | Python / Jupyter |
+| 2024 | omikuji_experience | おみくじアプリ（Python 学習） | Jupyter |
+| 2023 | py | Python 基礎の写経・練習ノート | Jupyter |
+| 2023 | Tello-Python | Ryze Tello ドローンを Python で制御（fork・学習用） | Python |
+| 2021 | samurai_express_sample | Express サンプル（fork・学習用） | Node.js |
+| 2019 | node-tello-edu | Tello ドローンを Node.js で制御（fork・学習用） | JavaScript |
 
 > **学びの流れ**: ドローン × プログラミング（2019〜）→ Web/Node.js（2021）→ Python 基礎・実験（2023〜2024）→ Python 認定試験対策の教材化（2026）。**「触る → 試す → 教材化する」** のサイクルで定着させています。
 
@@ -237,11 +248,11 @@ permalink: /
 
 ## 👤 経歴サマリ
 
-埼玉県および神奈川県内の公立学校にて **16年間**、教育DXを主導する「校内SE」として従事。情報科教員と並行してインフラ・RPA・Webアプリ開発までを担い、現場の「負」を構造的に解決してきました。2026年4月からは民間企業（社名非公開）で、生成AIを活用したソフトウェア開発に従事しています。
+埼玉県および神奈川県内の公立学校にて **16年間**、教育DXを主導する「校内SE」として従事。情報科教員と並行してインフラ・RPA・Webアプリ開発までを担い、現場の「負」を構造的に解決してきました。2026年4月からは民間企業で、生成AIを活用したソフトウェア開発に従事しています。
 
 | 期間 | 所属 | 役割 |
 | :-- | :-- | :-- |
-| 2026.04〜現在 | 民間企業（社名非公開） | ソフトウェアエンジニア（AI駆動開発） |
+| 2026.04〜現在 | 民間企業 | ソフトウェアエンジニア（AI駆動開発） |
 | 2025.04〜2026.03 | 公立高等学校 定時制（神奈川県内・専任） | 教員／校内SE（情報システム・社内SE相当業務を兼務） |
 | 2019.04〜2025.03 | 県立特別支援学校（埼玉県内・専任） | 教員／情報システム担当（PM・DX推進兼務） |
 | 2016.04〜2019.03 | 県立特別支援学校 分校（埼玉県内・専任） | 教員／校内SE |
@@ -260,4 +271,3 @@ permalink: /
 | 📝 note | [note.com/lush_cosmos4027](https://note.com/lush_cosmos4027) |
 | 📨 お問い合わせフォーム | [forms.gle/LL4WyZ3bWAvPhe8CA](https://forms.gle/LL4WyZ3bWAvPhe8CA) |
 | 🐙 GitHub（プロダクト） | [@TK20260401](https://github.com/TK20260401) |
-| 🎒 GitHub（学習履歴） | [@ChRo05](https://github.com/ChRo05) |
