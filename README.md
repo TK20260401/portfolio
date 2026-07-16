@@ -138,7 +138,7 @@ permalink: /
 | **clock** | NHK風時計アプリ（アナログ時計＋天気＋タイマー） | HTML / CSS / JS | [Repo](https://github.com/TK20260401/clock) |
 | **tetris-games** | ブラウザで遊べるテトリス | HTML / JS | [Demo](https://tetris-games-six.vercel.app) ・ [Repo](https://github.com/TK20260401/tetris-games) |
 
-### 🚧 開発中 / 構想中
+### 🚧 構想・研究中の取り組み
 #### 簿記・ビジネス会計トレーナー（開発中）
 
 教育現場で使っていた自作教材をベースに、簿記・会計を「解いて終わり」ではなく「仕組みごと理解する」ためのトレーニングアプリとして作り直しています。
