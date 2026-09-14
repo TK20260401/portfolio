@@ -16,7 +16,7 @@ permalink: /
 | | |
 | :-- | :-- |
 | 🎯 **専門領域** | データ分析・BI（SQL・Python・Looker Studio）／業務自動化・DX／フルスタック内製開発 |
-| 🧭 **得意領域** | データの定量化・可視化／SQL・Python／要件定義・業務設計／業務自動化（GAS・VBA） |
+| 🧭 **得意領域** | データの定量化・可視化／SQL・Python／要件定義・業務設計／ベンダーコントロール／業務自動化（GAS・VBA） |
 | ♿ **大切にしていること** | 数字の背景にある「人」を見る視点・データ整合性・属人化排除のドキュメント文化 |
 
 ### 💡 データ領域で提供できること
@@ -127,16 +127,13 @@ permalink: /
 | :-- | :-- | :-- | :-- |
 | **zensho-algo** | 全商情報処理検定 アルゴリズム完全攻略トレーナー。擬似言語の変数トレース・フローチャート変換 | TypeScript / Next.js | [Demo](https://zensho-algo-app.vercel.app) ・ [Repo](https://github.com/TK20260401/zensho-algo-app) |
 | **ipas-master** | ITパスポート対策アプリ。500問ドリル・分野別フィルタ・レーダーチャート分析・進数変換 | TypeScript / Next.js | [Demo](https://ipas-master.vercel.app) ・ [Repo](https://github.com/TK20260401/ipas-master) |
-| **logic-riichi** | 麻雀の待ち牌当てでアルゴリズム的思考を鍛える学習クイズ | TypeScript / Next.js | [Demo](https://logic-riichi.vercel.app) ・ [Repo](https://github.com/TK20260401/logic-riichi) |
 | **ISLOS（IT-Skills Learning OS）** | 情報処理学習アプリ（FE計算/ITパスポート/アルゴリズム）を束ねるポータル＋構想 | ポータル / 設計 | [ポータル](https://tk20260401.github.io/islos/) ・ [設計](https://github.com/TK20260401/20260401-Project-Blueprint) |
 
-### 🎮 その他
+### ♿ アクセシビリティ
 
 | プロジェクト | 概要 | 主な技術 | リンク |
 | :-- | :-- | :-- | :-- |
 | **universal-games** | 誰でも楽しめるアクセシブルなゲーム集（あそびひろば） | TypeScript / Expo | [Repo](https://github.com/TK20260401/universal-games) |
-| **clock** | NHK風時計アプリ（アナログ時計＋天気＋タイマー） | HTML / CSS / JS | [Repo](https://github.com/TK20260401/clock) |
-| **tetris-games** | ブラウザで遊べるテトリス | HTML / JS | [Demo](https://tetris-games-six.vercel.app) ・ [Repo](https://github.com/TK20260401/tetris-games) |
 
 ### 🚧 構想・研究中の取り組み
 #### 簿記・ビジネス会計トレーナー（開発中）
@@ -227,22 +224,6 @@ SQL で集計したデータを **Looker Studio と Power BI** の2ツールで�
 
 > これらの教材開発で培った **「学習者がどこでつまずくかを観察し、設計で解消する」** 経験が、現在のプロダクト（[おてつだいバンク](https://otetsudai-bank-beta.vercel.app)・[ISLOS](https://tk20260401.github.io/islos/)・[zensho-algo](https://zensho-algo-app.vercel.app) ほか）における UX 設計と教材化機能の根幹になっています。
 
----
-
-## 🎒 学習履歴（個人アカウント）
-
-プロダクト開発（[@TK20260401](https://github.com/TK20260401)）とは別に、**基礎学習・写経・検定対策** を個人アカウントで継続的に積み上げています。「教える側」として教材を作るだけでなく、**自分自身が学習者として手を動かし続ける** ことを大切にしています。
-
-| 時期 | リポジトリ | 内容 | 技術 |
-| :-- | :-- | :-- | :-- |
-| 2026 | python-certified-basic-jp | Python 3 エンジニア認定基礎試験の学習教材。要点まとめ・サンプルコード・選択式確認問題を Jupyter Notebook 化 | Python / Jupyter |
-| 2024 | omikuji_experience | おみくじアプリ（Python 学習） | Jupyter |
-| 2023 | py | Python 基礎の写経・練習ノート | Jupyter |
-| 2023 | Tello-Python | Ryze Tello ドローンを Python で制御（fork・学習用） | Python |
-| 2021 | samurai_express_sample | Express サンプル（fork・学習用） | Node.js |
-| 2019 | node-tello-edu | Tello ドローンを Node.js で制御（fork・学習用） | JavaScript |
-
-> **学びの流れ**: ドローン × プログラミング（2019〜）→ Web/Node.js（2021）→ Python 基礎・実験（2023〜2024）→ Python 認定試験対策の教材化（2026）。**「触る → 試す → 教材化する」** のサイクルで定着させています。
 
 ---
 
@@ -281,5 +262,5 @@ SQL で集計したデータを **Looker Studio と Power BI** の2ツールで�
 
 | | |
 | :-- | :-- |
+| 💼 LinkedIn | [linkedin.com/in/kikuchi-toru-buildships](https://www.linkedin.com/in/kikuchi-toru-buildships) |
 | 📨 お問い合わせフォーム | [forms.gle/LL4WyZ3bWAvPhe8CA](https://forms.gle/LL4WyZ3bWAvPhe8CA) |
-| 🐙 GitHub（プロダクト） | [@TK20260401](https://github.com/TK20260401) |
