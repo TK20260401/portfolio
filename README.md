@@ -263,4 +263,4 @@ SQL で集計したデータを **Looker Studio と Power BI** の2ツールで�
 | | |
 | :-- | :-- |
 | 💼 LinkedIn | [linkedin.com/in/kikuchi-toru-buildships](https://www.linkedin.com/in/kikuchi-toru-buildships) |
-| 📨 お問い合わせフォーム | [forms.gle/LL4WyZ3bWAvPhe8CA](https://forms.gle/LL4WyZ3bWAvPhe8CA) |
+| 📨 お問い合わせフォーム | [ご相談フォーム](https://docs.google.com/forms/d/e/1FAIpQLScAn21cS8bL2snlwt3fkSQxSPfeSdB7RYG3Ntq7FfNKxHnnMQ/viewform) |
